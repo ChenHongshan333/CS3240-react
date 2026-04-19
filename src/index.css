@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --background-primary: #f7f7f7;
+  --background-propbankheader: #f2f2f2;
+  --skyblue50: #56b2ff;
+  --lightblue100: #a2d6f9;
+  --buttons-chips-active: #1e96fc;
+  --buttons-chips-active-text: white;
+  --buttons-chips-inactive: white;
+  --buttons-chips-inactive-outline: #a2d6f9;
+  --buttons-chips-inactive-text: #627efb;
+  --darkblue80: #3e5eee;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 393px;
+  min-height: 852px;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
